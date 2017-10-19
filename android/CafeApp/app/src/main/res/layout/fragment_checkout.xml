@@ -1,0 +1,385 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.cafe.app.android.fragments.CheckoutFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="3dp"
+            android:text="Checkout"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.cafe.app.android.fragments.CheckoutFragment">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="3dp"
+                    android:text="Order Summary"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+                    <TableRow android:layout_width="0dp"
+                        android:layout_margin="5dp">
+                        <TextView android:text="Qty" />
+                        <TextView android:text="Item" />
+                        <TextView android:text="Size" />
+                        <TextView android:text="Price" />
+                        <TextView android:text="" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lightGray"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TableRow android:layout_width="0dp"
+                        android:layout_margin="5dp">
+                        <TextView android:text="2"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView android:text="Cafe Latte"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"/>
+
+                            <TextView android:text="non-fat milk"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <TextView android:text="L"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <TextView android:text="P170"
+                            android:textSize="16sp"/>
+                        <TextView android:text="" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lightGray"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TableRow android:layout_width="0dp"
+                        android:layout_margin="5dp">
+                        <TextView android:text="2"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView android:text="Cafe Latte"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"/>
+
+                            <TextView android:text="non-fat milk"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <TextView android:text="L"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <TextView android:text="P170"
+                            android:textSize="16sp"/>
+                        <TextView android:text="" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lightGray"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TableRow android:layout_width="0dp"
+                        android:layout_margin="5dp">
+                        <TextView android:text="2"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView android:text="Cafe Latte"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"/>
+
+                            <TextView android:text="non-fat milk"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/lightGray"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <TextView android:text="L"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <TextView android:text="P170"
+                            android:textSize="16sp"/>
+                        <TextView android:text="" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lightGray"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"/>
+
+                    <TableRow android:layout_width="0dp"
+                        android:layout_margin="5dp">
+                        <TextView android:text="1"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView android:text="Chocolate Croissant"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"/>
+
+                        </LinearLayout>
+
+                        <TextView android:text="L"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="16sp"/>
+                        <TextView android:text="P85"
+                            android:textSize="16sp"/>
+                        <TextView android:text="" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lightGray"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"/>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="3dp"
+                    android:text="Pick-up Time"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="100">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="50"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:id="@+id/layout_asap">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ASAP"
+                        android:textSize="15sp"
+                        android:textColor="@color/lightGray"
+
+                        android:paddingRight="20dp"
+                        android:gravity="right"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="15sp"
+                        android:textColor="@color/lightGray"
+
+                        android:paddingRight="20dp"
+                        android:gravity="right"
+                        />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="50"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:id="@+id/layout_select_time">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="3dp"
+                        android:text="Set Time"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="3dp"
+                        android:text="00 : 00 AM"
+                        android:id="@+id/txtPickupTime"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_weight="50"
+                        android:layout_marginLeft="20dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="@color/lightGray"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingRight="10dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="50dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="50"
+                    android:paddingRight="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="P255"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_weight="50"
+                    android:paddingRight="20dp"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If your order is approved, the cafe will charge your ID"
+                    android:textSize="15sp"
+                    android:textColor="@color/lightGray"
+                    android:gravity="center"
+                    android:paddingRight="40dp"
+                    android:paddingLeft="40dp"
+                    android:paddingBottom="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="Submit Order"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
